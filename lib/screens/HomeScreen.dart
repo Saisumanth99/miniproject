@@ -64,35 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
     });
     return SafeArea(
       child: Scaffold(
-        // appBar: AppBar(
-        //   title: Text('Cropify',
-        //       style: GoogleFonts.pacifico(
-        //           fontSize: 34, fontWeight: FontWeight.bold)),
-        //   centerTitle: true,
-        //   elevation: 0,
-        //   actions: [
-        //     Padding(
-        //       padding: const EdgeInsets.only(right: 10),
-        //       child: IconButton(
-        //         icon: Icon(Icons.camera_rear),
-        //         iconSize: 30,
-        //         onPressed: () {
-        //           Navigator.pushNamed(context, '/livepage');
-        //         },
-        //       ),
-        //     ),
-        //     Padding(
-        //       padding: const EdgeInsets.only(right: 10),
-        //       child: IconButton(
-        //         iconSize: 30,
-        //         icon: Icon(Icons.camera_enhance),
-        //         onPressed: () {
-        //           Navigator.pushNamed(context, '/uploadpage');
-        //         },
-        //       ),
-        //     )
-        //   ],
-        // ),
+       
         body: SingleChildScrollView(
           child: Column(
             children: [
@@ -134,44 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        // InkWell(
-                        //   enableFeedback: true,
-                        //   onTap: () {
-                        //     Navigator.pushNamed(context, '/livepage');
-                        //   },
-                        //   child: Container(
-                        //     decoration: BoxDecoration(
-                        //         color: Colors.white,
-                        //         borderRadius: BorderRadius.circular(10)),
-                        //     child: Card(
-                        //       shape: RoundedRectangleBorder(
-                        //           borderRadius: BorderRadius.circular(10)),
-                        //       margin: EdgeInsets.all(5),
-                        //       color: Colors.blue[400],
-                        //       elevation: 10,
-                        //       child: Padding(
-                        //         padding: const EdgeInsets.all(8.0),
-                        //         child: Column(
-                        //           children: [
-                        //             Icon(
-                        //               Icons.center_focus_strong,
-                        //               color: Colors.white,
-                        //               size: 34,
-                        //             ),
-                        //             SizedBox(
-                        //               height: 6,
-                        //             ),
-                        //             Text(
-                        //               'Live Cam',
-                        //               style: GoogleFonts.poppins(
-                        //                   color: Colors.white, fontSize: 15),
-                        //             )
-                        //           ],
-                        //         ),
-                        //       ),
-                        //     ),
-                        //   ),
-                        // ),
+                       
                         InkWell(
                           onTap: () {
                             Navigator.pushNamed(context, '/uploadpage');
