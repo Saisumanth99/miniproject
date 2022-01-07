@@ -150,13 +150,13 @@ class _DetailScreenState extends State<DetailScreen> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Icon(
-                            Icons.mail,
+                            Icons.share,
                             color: Colors.white,
                           ),
                           SizedBox(
                             width: 10,
                           ),
-                          Text('Mail', style: TextStyle(color: Colors.white))
+                          Text('Share', style: TextStyle(color: Colors.white))
                         ],
                       ),
                       onPressed: () {
